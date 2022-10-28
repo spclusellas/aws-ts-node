@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 app.use(express.json())
 
-const PORT = 80
+const PORT = 8080
 
 app.get('/ping', (_req, res) => {
     console.log('Sending response')
